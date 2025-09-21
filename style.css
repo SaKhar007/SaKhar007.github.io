@@ -1,0 +1,95 @@
+div, header, footer{
+    border: 1px, solid;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: monospace, 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background-color: rgb(69, 50, 46);
+    color: rgb(189, 181, 179);
+}
+a{
+    color: rgb(189, 181, 179);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(190, 125, 128);
+    text-decoration: underline;
+}
+.left{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    gap: 20px;
+    .second{
+        flex: 1;
+        text-align: left;
+        align-items: top;
+    }
+    .third{
+        flex: 1;
+        text-align: left;
+        align-items: top;
+    }
+}
+.middle{
+    text-align: center;
+}
+.middle ol{
+    display: inline-block;
+    text-align: left;
+}
+.right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.fourth{
+    align-items: top;
+    margin: auto;
+    display: block;
+    flex:1;
+}
+header{
+    text-align: left;
+
+}
+
+footer{
+    text-align: right;
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    gap: 20px;
+}
+.fifth{
+    align-items: top;
+    flex:1;
+}
+.sixth{
+    align-items: top;
+    flex:1;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    gap: 20px;
+}
